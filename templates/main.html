@@ -14,7 +14,11 @@
             <header class="top-bar">
                 <div>
                     <h1>Music Subscription</h1>
-                    <p>Welcome, {{ user_name }}</p>
+
+                    <p>
+                        Welcome,
+                        <strong>{{ user_name }}</strong>
+                    </p>
                 </div>
 
                 <a href="{{ url_for('logout') }}" class="logout-link">
@@ -33,15 +37,20 @@
                             src="{{ song.image_url }}"
                             alt="{{ song.artist }}"
                             class="music-image"
+                            onerror="this.style.display = 'none'"
                         />
 
-                        <h3>{{ song.title }}</h3>
-                        <p>{{ song.artist }}</p>
-                        <p>{{ song.year }}</p>
+                        <div class="music-info">
+                            <h3>{{ song.title }}</h3>
+
+                            <p class="artist-name">{{ song.artist }}</p>
+
+                            <span class="year-badge"> {{ song.year }} </span>
+                        </div>
 
                         <form
                             method="POST"
-                            action="{{ url_for('remove_subscription') }}"
+                            action="{{ url_for('remove_subscription_route') }}"
                         >
                             <input
                                 type="hidden"
@@ -49,13 +58,21 @@
                                 value="{{ song.music_id }}"
                             />
 
-                            <button type="submit">Remove</button>
+                            <button type="submit" class="remove-button">
+                                Remove
+                            </button>
                         </form>
                     </div>
                     {% endfor %}
                 </div>
                 {% else %}
-                <p>You have no subscriptions yet.</p>
+                <div class="empty-state">
+                    <h3>No subscriptions yet</h3>
+                    <p>
+                        Search for music below and subscribe to your favourite
+                        songs.
+                    </p>
+                </div>
                 {% endif %}
             </section>
 
@@ -102,9 +119,7 @@
             </section>
 
             {% if no_results %}
-            <section class="section">
-                <p class="error">No result is retrieved. Please query again</p>
-            </section>
+            <div class="error">No result is retrieved. Please query again</div>
             {% endif %} {% if results %}
             <section class="section">
                 <h2>Search Results</h2>
@@ -116,11 +131,16 @@
                             src="{{ song.image_url }}"
                             alt="{{ song.artist }}"
                             class="music-image"
+                            onerror="this.style.display = 'none'"
                         />
 
-                        <h3>{{ song.title }}</h3>
-                        <p>{{ song.artist }}</p>
-                        <p>{{ song.year }}</p>
+                        <div class="music-info">
+                            <h3>{{ song.title }}</h3>
+
+                            <p class="artist-name">{{ song.artist }}</p>
+
+                            <span class="year-badge"> {{ song.year }} </span>
+                        </div>
 
                         <form method="POST" action="{{ url_for('subscribe') }}">
                             <input
@@ -129,7 +149,9 @@
                                 value="{{ song.music_id }}"
                             />
 
-                            <button type="submit">Subscribe</button>
+                            <button type="submit" class="subscribe-button">
+                                Subscribe
+                            </button>
                         </form>
                     </div>
                     {% endfor %}
