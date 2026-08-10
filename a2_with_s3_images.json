@@ -1,0 +1,1028 @@
+{
+  "songs": [
+    {
+      "title": "1904",
+      "artist": "The Tallest Man On Earth",
+      "year": "2012",
+      "web_url": "https://open.spotify.com/track/4TNs34s6oqGlWr9EByFXR3",
+      "img_url": "https://i.scdn.co/image/ab67616d0000b273e21de78f69d3c385bdeaa76c",
+      "image_url": "https://assessment2-music-app-group3-bucket.s3.us-east-1.amazonaws.com/music-images/764b4f2c9f030aa080dabca9d4497ed2.jpg"
+    },
+    {
+      "title": "A Pirate Looks At Forty",
+      "artist": "Jack Johnson",
+      "year": "2012",
+      "web_url": "https://open.spotify.com/track/3kjDI9GpW9DpD3oixUviV4",
+      "img_url": "https://i.scdn.co/image/ab67616d0000b273d2b03fbd7562a43ee08c43f9",
+      "image_url": "https://assessment2-music-app-group3-bucket.s3.us-east-1.amazonaws.com/music-images/6b7a6e5c7c703e37c1b276e214efea2a.jpg"
+    },
+    {
+      "title": "40oz. To Freedom",
+      "artist": "Sublime",
+      "year": "1992",
+      "web_url": "https://open.spotify.com/track/0vtJ9Dq53hfXE3KyP1yPni",
+      "img_url": "https://i.scdn.co/image/ab67616d0000b273d77299e3d29f44495cd7fbcb",
+      "image_url": "https://assessment2-music-app-group3-bucket.s3.us-east-1.amazonaws.com/music-images/b1f9d3e3b6061b390f1f8de5a50b1738.jpg"
+    },
+    {
+      "title": "#41",
+      "artist": "Dave Matthews Band",
+      "year": "1996",
+      "web_url": "https://open.spotify.com/track/3ITGICyYHC13EkB7efdr8K",
+      "img_url": "https://i.scdn.co/image/ab67616d0000b2739cd2635b348273e312ebf0dd",
+      "image_url": "https://assessment2-music-app-group3-bucket.s3.us-east-1.amazonaws.com/music-images/55958dea9438d1860e475afd691a0fcd.jpg"
+    },
+    {
+      "title": "American Girl",
+      "artist": "Tom Petty and the Heartbreakers",
+      "year": "1976",
+      "web_url": "https://open.spotify.com/track/53LwBS4bovyljsMlLqGfd6",
+      "img_url": "https://i.scdn.co/image/ab67616d0000b273d38733f240ef69763120a469",
+      "image_url": "https://assessment2-music-app-group3-bucket.s3.us-east-1.amazonaws.com/music-images/ec36aaf5e1d2e32a63e542a1b3c82e4c.jpg"
+    },
+    {
+      "title": "American Music",
+      "artist": "Violent Femmes",
+      "year": "1991",
+      "web_url": "https://open.spotify.com/track/21F39lpBdWHu5aRy68V8xj",
+      "img_url": "https://i.scdn.co/image/ab67616d0000b2732e9a7873e05ab5d2ccf8ed29",
+      "image_url": "https://assessment2-music-app-group3-bucket.s3.us-east-1.amazonaws.com/music-images/90504bf458c8334d8034c09cb8d5865d.jpg"
+    },
+    {
+      "title": "American Pie",
+      "artist": "Don McLean",
+      "year": "1971",
+      "web_url": "https://open.spotify.com/track/1fDsrQ23eTAVFElUMaf38X",
+      "img_url": "https://i.scdn.co/image/ab67616d0000b2730085dd4362653ef4c54ebbeb",
+      "image_url": "https://assessment2-music-app-group3-bucket.s3.us-east-1.amazonaws.com/music-images/4cdea4a42633320826eb6cc1f638db43.jpg"
+    },
+    {
+      "title": "And It Stoned Me - 2013 Remaster",
+      "artist": "Van Morrison",
+      "year": "1970",
+      "web_url": "https://open.spotify.com/track/3n5iUh2Z6P7cnWins22W0F",
+      "img_url": "https://i.scdn.co/image/ab67616d0000b2732a1ffd75bb148e58ce2a6cac",
+      "image_url": "https://assessment2-music-app-group3-bucket.s3.us-east-1.amazonaws.com/music-images/bb5e664af890749c9d9c9cc9a10bbb1e.jpg"
+    },
+    {
+      "title": "A Sailor's Christmas",
+      "artist": "Jimmy Buffett",
+      "year": "1996",
+      "web_url": "https://open.spotify.com/track/0X9ITHoZ201GMo1zc9Jxo3",
+      "img_url": "https://i.scdn.co/image/ab67616d0000b273d8cbd272a912f05abc37e03f",
+      "image_url": "https://assessment2-music-app-group3-bucket.s3.us-east-1.amazonaws.com/music-images/2b69c8017c5977358dbbb4ad905d6b3d.jpg"
+    },
+    {
+      "title": "Badfish",
+      "artist": "Sublime",
+      "year": "1991",
+      "web_url": "https://open.spotify.com/track/4paJ10JPNCyOaLtz2cY928",
+      "img_url": "https://i.scdn.co/image/ab67616d0000b273e6f11f4c160143e5efb97651",
+      "image_url": "https://assessment2-music-app-group3-bucket.s3.us-east-1.amazonaws.com/music-images/2c03869896f41d1445bdc7578b3d853e.jpg"
+    },
+    {
+      "title": "Banana Pancakes",
+      "artist": "Jack Johnson",
+      "year": "2005",
+      "web_url": "https://open.spotify.com/track/0BgbobvykXxEvxo2HhCuvM",
+      "img_url": "https://i.scdn.co/image/ab67616d0000b273628dba01c669d89586967dc5",
+      "image_url": "https://assessment2-music-app-group3-bucket.s3.us-east-1.amazonaws.com/music-images/6a627372a7353a0bdfcb8585fe62e673.jpg"
+    },
+    {
+      "title": "Barefoot Children",
+      "artist": "Jimmy Buffett",
+      "year": "1995",
+      "web_url": "https://open.spotify.com/track/15x5HkUXErws1G8FkXNf9L",
+      "img_url": "https://i.scdn.co/image/ab67616d0000b273944316be52eee34e5c4ad2be",
+      "image_url": "https://assessment2-music-app-group3-bucket.s3.us-east-1.amazonaws.com/music-images/52a2313f08f29e4da2d1ccbbf1dea657.jpg"
+    },
+    {
+      "title": "Big Parade",
+      "artist": "The Lumineers",
+      "year": "2012",
+      "web_url": "https://open.spotify.com/track/2YBg2EU6Ru4aI6Y45PennF",
+      "img_url": "https://i.scdn.co/image/ab67616d0000b273f350c13195ce048876b5fea4",
+      "image_url": "https://assessment2-music-app-group3-bucket.s3.us-east-1.amazonaws.com/music-images/4edca0521a7ce8f8d501bd4b564fb29c.jpg"
+    },
+    {
+      "title": "Brown Eyed Girl",
+      "artist": "Van Morrison",
+      "year": "1967",
+      "web_url": "https://open.spotify.com/track/3yrSvpt2l1xhsV9Em88Pul",
+      "img_url": "https://i.scdn.co/image/ab67616d0000b2733f29a976eea00141514ab936",
+      "image_url": "https://assessment2-music-app-group3-bucket.s3.us-east-1.amazonaws.com/music-images/613f17477d1ccd1a8458a79ebb20ccec.jpg"
+    },
+    {
+      "title": "Cape Canaveral",
+      "artist": "Conor Oberst",
+      "year": "2008",
+      "web_url": "https://open.spotify.com/track/3MDOdyEXnNUQCEQuEmyGqJ",
+      "img_url": "https://i.scdn.co/image/ab67616d0000b27300bd7595e78d387b42b56b84",
+      "image_url": "https://assessment2-music-app-group3-bucket.s3.us-east-1.amazonaws.com/music-images/6aa845769769095c7bb38e899786d3fa.jpg"
+    },
+    {
+      "title": "Carry On",
+      "artist": "fun.",
+      "year": "2012",
+      "web_url": "https://open.spotify.com/track/5xZjfKSfTooDP2rcAgjxlH",
+      "img_url": "https://i.scdn.co/image/ab67616d0000b273a036e1724bc7f2bab15cfda8",
+      "image_url": "https://assessment2-music-app-group3-bucket.s3.us-east-1.amazonaws.com/music-images/6b377572f89ab265ac5b2e2a27ad6284.jpg"
+    },
+    {
+      "title": "Catch the Wind",
+      "artist": "Donovan",
+      "year": "1965",
+      "web_url": "https://open.spotify.com/track/505Pd7CPHoewIE3Io2EpWd",
+      "img_url": "https://i.scdn.co/image/ab67616d0000b2738234004075e36ffffbe4879e",
+      "image_url": "https://assessment2-music-app-group3-bucket.s3.us-east-1.amazonaws.com/music-images/7ea044ab0b54466a889c5787e076049a.jpg"
+    },
+    {
+      "title": "Cat's in the Cradle",
+      "artist": "Harry Chapin",
+      "year": "1974",
+      "web_url": "https://open.spotify.com/track/2obblQ6tcePeOEVJV6nEGD",
+      "img_url": "https://i.scdn.co/image/ab67616d0000b2736f5f94a57fdb922f98b06e86",
+      "image_url": "https://assessment2-music-app-group3-bucket.s3.us-east-1.amazonaws.com/music-images/d1d1a3a7e38e75a8f2f461119d98b585.jpg"
+    },
+    {
+      "title": "Margaritaville",
+      "artist": "Jimmy Buffett",
+      "year": "1977",
+      "web_url": "https://open.spotify.com/track/4EEjMyQub6tgFVshlM9j1M",
+      "img_url": "https://i.scdn.co/image/ab67616d0000b2734fdb0337978c7464cdfb1783",
+      "image_url": "https://assessment2-music-app-group3-bucket.s3.us-east-1.amazonaws.com/music-images/ccd18723e82ea0f18664607890d78142.jpg"
+    },
+    {
+      "title": "Classy Girls",
+      "artist": "The Lumineers",
+      "year": "2012",
+      "web_url": "https://open.spotify.com/track/3bkhgcdVhccehnHUcUh4Go",
+      "img_url": "https://i.scdn.co/image/ab67616d0000b273f350c13195ce048876b5fea4",
+      "image_url": "https://assessment2-music-app-group3-bucket.s3.us-east-1.amazonaws.com/music-images/4edca0521a7ce8f8d501bd4b564fb29c.jpg"
+    },
+    {
+      "title": "Creep",
+      "artist": "Radiohead",
+      "year": "1993",
+      "web_url": "https://open.spotify.com/track/70LcF31zb1H0PyJoS1Sx1r",
+      "img_url": "https://i.scdn.co/image/ab67616d0000b273ec548c00d3ac2f10be73366d",
+      "image_url": "https://assessment2-music-app-group3-bucket.s3.us-east-1.amazonaws.com/music-images/5a75d63f90eb17c8a5ca09f48942dcf7.jpg"
+    },
+    {
+      "title": "Danny Boy",
+      "artist": "Johnny Cash",
+      "year": "2002",
+      "web_url": "https://open.spotify.com/track/5o4SqGekEfvdkNuOVx5d3S",
+      "img_url": "https://i.scdn.co/image/ab67616d0000b2736f4f62da3d811b6501a69ffa",
+      "image_url": "https://assessment2-music-app-group3-bucket.s3.us-east-1.amazonaws.com/music-images/d3d20e850d433909a64b59eb678afef7.jpg"
+    },
+    {
+      "title": "Darkness Between the Fireflies",
+      "artist": "Mason Jennings",
+      "year": "1998",
+      "web_url": "https://open.spotify.com/track/3Ov5JzrUUKCC130odwhBNZ",
+      "img_url": "https://i.scdn.co/image/ab67616d0000b273f1f69e4effe42db43fb8d1e2",
+      "image_url": "https://assessment2-music-app-group3-bucket.s3.us-east-1.amazonaws.com/music-images/2f0f661dcc37e56df84f5128014d8f70.jpg"
+    },
+    {
+      "title": "Dead Sea",
+      "artist": "The Lumineers",
+      "year": "2012",
+      "web_url": "https://open.spotify.com/track/1ipIRGBLxYh0ijp3JioP3p",
+      "img_url": "https://i.scdn.co/image/ab67616d0000b273f350c13195ce048876b5fea4",
+      "image_url": "https://assessment2-music-app-group3-bucket.s3.us-east-1.amazonaws.com/music-images/4edca0521a7ce8f8d501bd4b564fb29c.jpg"
+    },
+    {
+      "title": "Distantly In Love",
+      "artist": "Jimmy Buffett",
+      "year": "1983",
+      "web_url": "https://open.spotify.com/track/2YJacg5JOfhIYnGFrasMhF",
+      "img_url": "https://i.scdn.co/image/ab67616d0000b2730683f86b528c40a5225a0b4b",
+      "image_url": "https://assessment2-music-app-group3-bucket.s3.us-east-1.amazonaws.com/music-images/d8085e292c388b4699a7904fc0d695a3.jpg"
+    },
+    {
+      "title": "Don't Leave Me (Ne me quitte pas)",
+      "artist": "Regina Spektor",
+      "year": "2012",
+      "web_url": "https://open.spotify.com/track/7til9cDK5rExLomnvyUhS3",
+      "img_url": "https://i.scdn.co/image/ab67616d0000b2735b85c4e27b17be5f4af348e6",
+      "image_url": "https://assessment2-music-app-group3-bucket.s3.us-east-1.amazonaws.com/music-images/88ac3092cad9b92cb4fbc1c9fdc3a062.jpg"
+    },
+    {
+      "title": "Don't Look Back in Anger - Remastered",
+      "artist": "Oasis",
+      "year": "1995",
+      "web_url": "https://open.spotify.com/track/0UvCh63URrLFcPkKt99hHd",
+      "img_url": "https://i.scdn.co/image/ab67616d0000b27385e5dcc05cc216a10f141480",
+      "image_url": "https://assessment2-music-app-group3-bucket.s3.us-east-1.amazonaws.com/music-images/b314845e4f29c9c4667f58dc698f862c.jpg"
+    },
+    {
+      "title": "Don't Stop Believin' (2022 Remaster)",
+      "artist": "Journey",
+      "year": "1981",
+      "web_url": "https://open.spotify.com/track/5RKQ5NdjSh2QzD4MaunT91",
+      "img_url": "https://i.scdn.co/image/ab67616d0000b27363fa4751355b66f236943275",
+      "image_url": "https://assessment2-music-app-group3-bucket.s3.us-east-1.amazonaws.com/music-images/3384cb69893d98bc843a44674f1f7c38.jpg"
+    },
+    {
+      "title": "Doomsday",
+      "artist": "Elvis Perkins In Dearland",
+      "year": "2009",
+      "web_url": "https://open.spotify.com/track/0l5n8UtAYtJJxEvzBdHL40",
+      "img_url": "https://i.scdn.co/image/ab67616d0000b273f592494bc8d2df4ad464f16b",
+      "image_url": "https://assessment2-music-app-group3-bucket.s3.us-east-1.amazonaws.com/music-images/11c17a1cc1911fc84352b03bea1a795c.jpg"
+    },
+    {
+      "title": "Do You Remember",
+      "artist": "Jack Johnson",
+      "year": "2005",
+      "web_url": "https://open.spotify.com/track/44HBcWA1jp22uKjKbwZd7Z",
+      "img_url": "https://i.scdn.co/image/ab67616d0000b273628dba01c669d89586967dc5",
+      "image_url": "https://assessment2-music-app-group3-bucket.s3.us-east-1.amazonaws.com/music-images/6a627372a7353a0bdfcb8585fe62e673.jpg"
+    },
+    {
+      "title": "Drink The Water",
+      "artist": "Jack Johnson",
+      "year": "2001",
+      "web_url": "https://open.spotify.com/track/3SvFb5DVgaEFLiO70A4qIv",
+      "img_url": "https://i.scdn.co/image/ab67616d0000b273cb0161f840ee7bb3b9d9cde2",
+      "image_url": "https://assessment2-music-app-group3-bucket.s3.us-east-1.amazonaws.com/music-images/732a513057a6e92df40923ad936756c8.jpg"
+    },
+    {
+      "title": "Emmylou",
+      "artist": "First Aid Kit",
+      "year": "2012",
+      "web_url": "https://open.spotify.com/track/22auw1DYQlYh5XgKv5FtNx",
+      "img_url": "https://i.scdn.co/image/ab67616d0000b273ea1dd7c174f9239cf5733e58",
+      "image_url": "https://assessment2-music-app-group3-bucket.s3.us-east-1.amazonaws.com/music-images/3302cf2c0efa04b1db7f80033a6ebea9.jpg"
+    },
+    {
+      "title": "Fall Line",
+      "artist": "Jack Johnson",
+      "year": "2003",
+      "web_url": "https://open.spotify.com/track/4nvYJZca0LmEyKbwumPvsH",
+      "img_url": "https://i.scdn.co/image/ab67616d0000b2734a25251f8c645064ebdec45b",
+      "image_url": "https://assessment2-music-app-group3-bucket.s3.us-east-1.amazonaws.com/music-images/ca0defd51e7dadfbfe9745b684549f2e.jpg"
+    },
+    {
+      "title": "Father And Son",
+      "artist": "Yusuf / Cat Stevens",
+      "year": "1970",
+      "web_url": "https://open.spotify.com/track/476V2d6iA2tWXgQboKmTtA",
+      "img_url": "https://i.scdn.co/image/ab67616d0000b273e7248738c2f7ce3b5584b15d",
+      "image_url": "https://assessment2-music-app-group3-bucket.s3.us-east-1.amazonaws.com/music-images/e0b78c851a8d7a70f027ff7a84bf6eaf.jpg"
+    },
+    {
+      "title": "Flake",
+      "artist": "Jack Johnson",
+      "year": "2001",
+      "web_url": "https://open.spotify.com/track/0yo8lQMdjioEBW7eux4X0L",
+      "img_url": "https://i.scdn.co/image/ab67616d0000b273cb0161f840ee7bb3b9d9cde2",
+      "image_url": "https://assessment2-music-app-group3-bucket.s3.us-east-1.amazonaws.com/music-images/732a513057a6e92df40923ad936756c8.jpg"
+    },
+    {
+      "title": "Flapper Girl",
+      "artist": "The Lumineers",
+      "year": "2012",
+      "web_url": "https://open.spotify.com/track/33iANKTnNYqgY2Lm1pPoCa",
+      "img_url": "https://i.scdn.co/image/ab67616d0000b273f350c13195ce048876b5fea4",
+      "image_url": "https://assessment2-music-app-group3-bucket.s3.us-east-1.amazonaws.com/music-images/4edca0521a7ce8f8d501bd4b564fb29c.jpg"
+    },
+    {
+      "title": "Flowers In Your Hair",
+      "artist": "The Lumineers",
+      "year": "2012",
+      "web_url": "https://open.spotify.com/track/5PbdVk09VHHcvGa0pX86RP",
+      "img_url": "https://i.scdn.co/image/ab67616d0000b273f350c13195ce048876b5fea4",
+      "image_url": "https://assessment2-music-app-group3-bucket.s3.us-east-1.amazonaws.com/music-images/4edca0521a7ce8f8d501bd4b564fb29c.jpg"
+    },
+    {
+      "title": "Folsom Prison Blues - Live at Folsom State Prison, Folsom, CA - January 1968",
+      "artist": "Johnny Cash",
+      "year": "1968",
+      "web_url": "https://open.spotify.com/track/2fDHuS1PTkHBbCWWZF1ph9",
+      "img_url": "https://i.scdn.co/image/ab67616d0000b2734a04593b7c149dc7b725683e",
+      "image_url": "https://assessment2-music-app-group3-bucket.s3.us-east-1.amazonaws.com/music-images/20ce49c234c61db2887f161c9fda7760.jpg"
+    },
+    {
+      "title": "Free Fallin'",
+      "artist": "Tom Petty",
+      "year": "1989",
+      "web_url": "https://open.spotify.com/track/5tVA6TkbaAH9QMITTQRrNv",
+      "img_url": "https://i.scdn.co/image/ab67616d0000b27336572e6726714544f5bed456",
+      "image_url": "https://assessment2-music-app-group3-bucket.s3.us-east-1.amazonaws.com/music-images/a3c05b29ef19ccdec9ce160c22b47046.jpg"
+    },
+    {
+      "title": "Furr",
+      "artist": "Blitzen Trapper",
+      "year": "2008",
+      "web_url": "https://open.spotify.com/track/2fgbsGWU2Dum08uifQHhiB",
+      "img_url": "https://i.scdn.co/image/ab67616d0000b2737c84401741734117322913ec",
+      "image_url": "https://assessment2-music-app-group3-bucket.s3.us-east-1.amazonaws.com/music-images/ca1b6ac4f966b4d01b549d8b65820ebc.jpg"
+    },
+    {
+      "title": "Get-Well-Cards",
+      "artist": "Conor Oberst",
+      "year": "2008",
+      "web_url": "https://open.spotify.com/track/72Ayxonu31ZGVUuepuhcav",
+      "img_url": "https://i.scdn.co/image/ab67616d0000b27300bd7595e78d387b42b56b84",
+      "image_url": "https://assessment2-music-app-group3-bucket.s3.us-east-1.amazonaws.com/music-images/6aa845769769095c7bb38e899786d3fa.jpg"
+    },
+    {
+      "title": "Gulf Coast Highway (with Willie Nelson) - 2008 Remaster",
+      "artist": "Emmylou Harris",
+      "year": "1990",
+      "web_url": "https://open.spotify.com/track/2zG2tNYWpVr1XMWsTYmfWX",
+      "img_url": "https://i.scdn.co/image/ab67616d0000b273c8d13b9731519451f742ceb6",
+      "image_url": "https://assessment2-music-app-group3-bucket.s3.us-east-1.amazonaws.com/music-images/3d6ba3c0b3bb9f35ee524e2808948f43.jpg"
+    },
+    {
+      "title": "Half Light I",
+      "artist": "Arcade Fire",
+      "year": "2010",
+      "web_url": "https://open.spotify.com/track/58CoyTs0xRU524pF3RvAuZ",
+      "img_url": "https://i.scdn.co/image/ab67616d0000b2731d6b4b0418200b6324734062",
+      "image_url": "https://assessment2-music-app-group3-bucket.s3.us-east-1.amazonaws.com/music-images/ab9ead913b08a7942e96da7adb66099f.jpg"
+    },
+    {
+      "title": "Half Light II (No Celebration)",
+      "artist": "Arcade Fire",
+      "year": "2010",
+      "web_url": "https://open.spotify.com/track/3kw3rqgqtF4F7xVmHqTsGj",
+      "img_url": "https://i.scdn.co/image/ab67616d0000b273532391d63cfd6d32677f7af6",
+      "image_url": "https://assessment2-music-app-group3-bucket.s3.us-east-1.amazonaws.com/music-images/44347087c3addec9b66c0d43d92c160b.jpg"
+    },
+    {
+      "title": "Harvest Moon",
+      "artist": "Neil Young",
+      "year": "1992",
+      "web_url": "https://open.spotify.com/track/5l9c6bJmzvftumhz4TMPgk",
+      "img_url": "https://i.scdn.co/image/ab67616d0000b27349b5b0e43ad82f8b6d0379e4",
+      "image_url": "https://assessment2-music-app-group3-bucket.s3.us-east-1.amazonaws.com/music-images/0c72aada62c23b10e972b7d51c6e6ef3.jpg"
+    },
+    {
+      "title": "Heart of Gold",
+      "artist": "Neil Young",
+      "year": "1972",
+      "web_url": "https://open.spotify.com/track/26QKxvjlCo2fSd3T4c8Zpb",
+      "img_url": "https://i.scdn.co/image/ab67616d0000b2730940e6b24f977f68b5fc35d1",
+      "image_url": "https://assessment2-music-app-group3-bucket.s3.us-east-1.amazonaws.com/music-images/915b7c3f8f01a235826995a9e26198d1.jpg"
+    },
+    {
+      "title": "Here I Go Again - 2018 Remaster",
+      "artist": "Whitesnake",
+      "year": "1987",
+      "web_url": "https://open.spotify.com/track/6Nd6ntkzr4t8o1FKPGOSMt",
+      "img_url": "https://i.scdn.co/image/ab67616d0000b273facf92d793609aa3bc5cc4e7",
+      "image_url": "https://assessment2-music-app-group3-bucket.s3.us-east-1.amazonaws.com/music-images/8b7401538650f36a1d0d4da5db8378ab.jpg"
+    },
+    {
+      "title": "Hey Jealousy",
+      "artist": "Gin Blossoms",
+      "year": "1992",
+      "web_url": "https://open.spotify.com/track/4o7ZPI2fmEi3piRe0Hrfpy",
+      "img_url": "https://i.scdn.co/image/ab67616d0000b273e3100bdcdc758b5fab7e4894",
+      "image_url": "https://assessment2-music-app-group3-bucket.s3.us-east-1.amazonaws.com/music-images/5d9d98fdda41300084b770d8b065501f.jpg"
+    },
+    {
+      "title": "Hey, Soul Sister",
+      "artist": "Train",
+      "year": "2010",
+      "web_url": "https://open.spotify.com/track/4HlFJV71xXKIGcU3kRyttv",
+      "img_url": "https://i.scdn.co/image/ab67616d0000b2736ff8bc258e3ebc835ffe14ca",
+      "image_url": "https://assessment2-music-app-group3-bucket.s3.us-east-1.amazonaws.com/music-images/1d60459beaee300621694bef95f8e57f.jpg"
+    },
+    {
+      "title": "High and Dry",
+      "artist": "Radiohead",
+      "year": "1995",
+      "web_url": "https://open.spotify.com/track/2a1iMaoWQ5MnvLFBDv4qkf",
+      "img_url": "https://i.scdn.co/image/ab67616d0000b2739293c743fa542094336c5e12",
+      "image_url": "https://assessment2-music-app-group3-bucket.s3.us-east-1.amazonaws.com/music-images/6b8e21a9023b0aed41e43e92a1352c36.jpg"
+    },
+    {
+      "title": "Ho Hey",
+      "artist": "The Lumineers",
+      "year": "2012",
+      "web_url": "https://open.spotify.com/track/0DwClY2t9YAWHBROMIgrXb",
+      "img_url": "https://i.scdn.co/image/ab67616d0000b273f350c13195ce048876b5fea4",
+      "image_url": "https://assessment2-music-app-group3-bucket.s3.us-east-1.amazonaws.com/music-images/4edca0521a7ce8f8d501bd4b564fb29c.jpg"
+    },
+    {
+      "title": "Hollywood Forever Cemetery Sings",
+      "artist": "Father John Misty",
+      "year": "2012",
+      "web_url": "https://open.spotify.com/track/3O30ywyRk6EKT68sBvVqOP",
+      "img_url": "https://i.scdn.co/image/ab67616d0000b273f81572e9a17c58d81b0f70e9",
+      "image_url": "https://assessment2-music-app-group3-bucket.s3.us-east-1.amazonaws.com/music-images/47c8e853efc833a60bbf88c9e70624cc.jpg"
+    },
+    {
+      "title": "Home - 2019 Remaster",
+      "artist": "Edward Sharpe & The Magnetic Zeros",
+      "year": "2009",
+      "web_url": "https://open.spotify.com/track/5m1x4QRgaKmK8cTkZQjGRr",
+      "img_url": "https://i.scdn.co/image/ab67616d0000b273b135a1451936b0d93cd8c988",
+      "image_url": "https://assessment2-music-app-group3-bucket.s3.us-east-1.amazonaws.com/music-images/84c887d71609d8fbb1ccf9add0b907f8.jpg"
+    },
+    {
+      "title": "Honey Do - Live/1990",
+      "artist": "Jimmy Buffett",
+      "year": "1990",
+      "web_url": "https://open.spotify.com/track/09wSFwkETOSSikXZ8azJ90",
+      "img_url": "https://i.scdn.co/image/ab67616d0000b273f7e17f64fcd952b79a4a335f",
+      "image_url": "https://assessment2-music-app-group3-bucket.s3.us-east-1.amazonaws.com/music-images/85a75c79170e9e86193410484b534d07.jpg"
+    },
+    {
+      "title": "Hospitals and Jails",
+      "artist": "Mason Jennings",
+      "year": "2002",
+      "web_url": "https://open.spotify.com/track/2ugvybIOw8HnSaOBGHPnwI",
+      "img_url": "https://i.scdn.co/image/ab67616d0000b273778b5bf7be50b9a26ad572fb",
+      "image_url": "https://assessment2-music-app-group3-bucket.s3.us-east-1.amazonaws.com/music-images/064152c186c375f23fdb6879749d9b63.jpg"
+    },
+    {
+      "title": "Hotel California - 2013 Remaster",
+      "artist": "Eagles",
+      "year": "1976",
+      "web_url": "https://open.spotify.com/track/40riOy7x9W7GXjyGp4pjAv",
+      "img_url": "https://i.scdn.co/image/ab67616d0000b2734637341b9f507521afa9a778",
+      "image_url": "https://assessment2-music-app-group3-bucket.s3.us-east-1.amazonaws.com/music-images/9a70d335fce6171ced20fddfd7d3059c.jpg"
+    },
+    {
+      "title": "Hotel Yorba",
+      "artist": "The White Stripes",
+      "year": "2001",
+      "web_url": "https://open.spotify.com/track/4faZbPZPQAmHADVtQNsv5E",
+      "img_url": "https://i.scdn.co/image/ab67616d0000b273c6084929566743530de8c721",
+      "image_url": "https://assessment2-music-app-group3-bucket.s3.us-east-1.amazonaws.com/music-images/12a22ed36983dbf4ceedeb29b82dde75.jpg"
+    },
+    {
+      "title": "I Feel Home",
+      "artist": "O.A.R.",
+      "year": "2004",
+      "web_url": "https://open.spotify.com/track/5fIJ2LAuI3SSc0jRcQqlZV",
+      "img_url": "https://i.scdn.co/image/ab67616d0000b2735bfbf9da468ce3324b3905dc",
+      "image_url": "https://assessment2-music-app-group3-bucket.s3.us-east-1.amazonaws.com/music-images/6eda4cdd190e69e7b73b886aea6135fd.jpg"
+    },
+    {
+      "title": "I Knew You Were Trouble.",
+      "artist": "Taylor Swift",
+      "year": "2012",
+      "web_url": "https://open.spotify.com/track/6FB3v4YcR57y4tXFcdxI1E",
+      "img_url": "https://i.scdn.co/image/ab67616d0000b2731c248e90c3e569f90aef9dec",
+      "image_url": "https://assessment2-music-app-group3-bucket.s3.us-east-1.amazonaws.com/music-images/e793492b6078071e5bcf56cb3f49380d.jpg"
+    },
+    {
+      "title": "I'm Writing a Novel",
+      "artist": "Father John Misty",
+      "year": "2012",
+      "web_url": "https://open.spotify.com/track/2gUwnJ5cpl40TSlqmjfqAC",
+      "img_url": "https://i.scdn.co/image/ab67616d0000b273f81572e9a17c58d81b0f70e9",
+      "image_url": "https://assessment2-music-app-group3-bucket.s3.us-east-1.amazonaws.com/music-images/47c8e853efc833a60bbf88c9e70624cc.jpg"
+    },
+    {
+      "title": "Island In The Sun",
+      "artist": "Weezer",
+      "year": "2001",
+      "web_url": "https://open.spotify.com/track/2MLHyLy5z5l5YRp7momlgw",
+      "img_url": "https://i.scdn.co/image/ab67616d0000b2731e0dc5baaabda304b0ad1815",
+      "image_url": "https://assessment2-music-app-group3-bucket.s3.us-east-1.amazonaws.com/music-images/8332030fdc528a486db8c8bced35191e.jpg"
+    },
+    {
+      "title": "I Won't Give Up",
+      "artist": "Jason Mraz",
+      "year": "2012",
+      "web_url": "https://open.spotify.com/track/5ivF4eQBqJiVL5IAE9jRyl",
+      "img_url": "https://i.scdn.co/image/ab67616d0000b2733f1ceb305415a090c0885986",
+      "image_url": "https://assessment2-music-app-group3-bucket.s3.us-east-1.amazonaws.com/music-images/45803838e8561e22425e13316a30ee43.jpg"
+    },
+    {
+      "title": "Jack & Diane",
+      "artist": "John Mellencamp",
+      "year": "1982",
+      "web_url": "https://open.spotify.com/track/43btz2xjMKpcmjkuRsvxyg",
+      "img_url": "https://i.scdn.co/image/ab67616d0000b273b1945b44ce8868740f132f8e",
+      "image_url": "https://assessment2-music-app-group3-bucket.s3.us-east-1.amazonaws.com/music-images/e7d5648dac50ad46ca036db9c76515ed.jpg"
+    },
+    {
+      "title": "Karma Police",
+      "artist": "Radiohead",
+      "year": "1997",
+      "web_url": "https://open.spotify.com/track/63OQupATfueTdZMWTxW03A",
+      "img_url": "https://i.scdn.co/image/ab67616d0000b273c8b444df094279e70d0ed856",
+      "image_url": "https://assessment2-music-app-group3-bucket.s3.us-east-1.amazonaws.com/music-images/40374db29354d040c44b2168356d7d2f.jpg"
+    },
+    {
+      "title": "King of Spain",
+      "artist": "The Tallest Man On Earth",
+      "year": "2010",
+      "web_url": "https://open.spotify.com/track/7nf794AzR4NDuhNOnkJoOd",
+      "img_url": "https://i.scdn.co/image/ab67616d0000b27339983a909a80348681fde2b0",
+      "image_url": "https://assessment2-music-app-group3-bucket.s3.us-east-1.amazonaws.com/music-images/7633788948d26a8198a3de8da7be6641.jpg"
+    },
+    {
+      "title": "King of the World",
+      "artist": "First Aid Kit",
+      "year": "2012",
+      "web_url": "https://open.spotify.com/track/5yjQt5ENkply7p1BTqHnp8",
+      "img_url": "https://i.scdn.co/image/ab67616d0000b273ea1dd7c174f9239cf5733e58",
+      "image_url": "https://assessment2-music-app-group3-bucket.s3.us-east-1.amazonaws.com/music-images/3302cf2c0efa04b1db7f80033a6ebea9.jpg"
+    },
+    {
+      "title": "Just the Two of Us (feat. Bill Withers) - Edit",
+      "artist": "Grover Washington, Jr.",
+      "year": "1994",
+      "web_url": "https://open.spotify.com/track/2tH28YyKYOldxhuBHoI79M",
+      "img_url": "https://i.scdn.co/image/ab67616d0000b273f8560af696925c50080dcc35",
+      "image_url": "https://assessment2-music-app-group3-bucket.s3.us-east-1.amazonaws.com/music-images/57ec16d3c7bb1028565a88728bea565a.jpg"
+    },
+    {
+      "title": "Little Talks",
+      "artist": "Of Monsters and Men",
+      "year": "2012",
+      "web_url": "https://open.spotify.com/track/2ihCaVdNZmnHZWt0fvAM7B",
+      "img_url": "https://i.scdn.co/image/ab67616d0000b273cb3f67e8026e2e493a1e8262",
+      "image_url": "https://assessment2-music-app-group3-bucket.s3.us-east-1.amazonaws.com/music-images/97a17285d66f938f27684e73aff852c0.jpg"
+    },
+    {
+      "title": "Roll Me Up and Smoke Me When I Die - Live",
+      "artist": "Willie Nelson",
+      "year": "2020",
+      "web_url": "https://open.spotify.com/track/5iis9J2sptrUy0VIpFVIg1",
+      "img_url": "https://i.scdn.co/image/ab67616d0000b2732a7f015503284702ebf950f7",
+      "image_url": "https://assessment2-music-app-group3-bucket.s3.us-east-1.amazonaws.com/music-images/6c08c51dc9ae440be606d3e725d84d17.jpg"
+    },
+    {
+      "title": "Lola (2020 Stereo Remaster)",
+      "artist": "The Kinks",
+      "year": "1970",
+      "web_url": "https://open.spotify.com/track/4Tjs8b6jL1s18sjURJtswp",
+      "img_url": "https://i.scdn.co/image/ab67616d0000b273da0e0c87f57499b479e7da59",
+      "image_url": "https://assessment2-music-app-group3-bucket.s3.us-east-1.amazonaws.com/music-images/cfb3474c455a814dcefef9953f7a673b.jpg"
+    },
+    {
+      "title": "Lonesome Town",
+      "artist": "Ricky Nelson",
+      "year": "1959",
+      "web_url": "https://open.spotify.com/track/0SsYlkXxZ5vkWOTsKxMfMz",
+      "img_url": "https://i.scdn.co/image/ab67616d0000b2731643ddadb5ae034cdab6ea90",
+      "image_url": "https://assessment2-music-app-group3-bucket.s3.us-east-1.amazonaws.com/music-images/056e87c7cc64142fba54bdf6c7f6f984.jpg"
+    },
+    {
+      "title": "Love in the Library",
+      "artist": "Jimmy Buffett",
+      "year": "2020",
+      "web_url": "https://open.spotify.com/track/6jEzAGGhaDOEeDXoJ7e8XK",
+      "img_url": "https://i.scdn.co/image/ab67616d0000b273d2b10aea3b5f4a83f6245a09",
+      "image_url": "https://assessment2-music-app-group3-bucket.s3.us-east-1.amazonaws.com/music-images/bcd6ee476d59c3236c981180c605657f.jpg"
+    },
+    {
+      "title": "Love Story (Taylor’s Version)",
+      "artist": "Taylor Swift",
+      "year": "2021",
+      "web_url": "https://open.spotify.com/track/3CeCwYWvdfXbZLXFhBrbnf",
+      "img_url": "https://i.scdn.co/image/ab67616d0000b273877ea8fa223c26f19aaef92d",
+      "image_url": "https://assessment2-music-app-group3-bucket.s3.us-east-1.amazonaws.com/music-images/c3a3ee9e2a57e3b090e2ea13d8e88467.jpg"
+    },
+    {
+      "title": "Margaritaville (with Jimmy Buffett)",
+      "artist": "Alan Jackson",
+      "year": "1999",
+      "web_url": "https://open.spotify.com/track/2CEWW0uqHj7sJrXdfHwozn",
+      "img_url": "https://i.scdn.co/image/ab67616d0000b273bc7bd66bbf212b4a998e1630",
+      "image_url": "https://assessment2-music-app-group3-bucket.s3.us-east-1.amazonaws.com/music-images/1fb70429007c1bd0442dfc23ddb53a4a.jpg"
+    },
+    {
+      "title": "Me and Julio Down by the Schoolyard",
+      "artist": "Paul Simon",
+      "year": "1972",
+      "web_url": "https://open.spotify.com/track/6vxHp3CDNo0afgKGp2yi1E",
+      "img_url": "https://i.scdn.co/image/ab67616d0000b27337a40ab12a4fb96319a9d96f",
+      "image_url": "https://assessment2-music-app-group3-bucket.s3.us-east-1.amazonaws.com/music-images/8feb9c8daf716e7f98e5359aa3152484.jpg"
+    },
+    {
+      "title": "Migration",
+      "artist": "Jimmy Buffett",
+      "year": "1974",
+      "web_url": "https://open.spotify.com/track/6TOQY40mnZWzhQhpGYI4WT",
+      "img_url": "https://i.scdn.co/image/ab67616d0000b27333733085a70a5fa56623f8ea",
+      "image_url": "https://assessment2-music-app-group3-bucket.s3.us-east-1.amazonaws.com/music-images/4b6ac5493bf958091f34f220f8727e9b.jpg"
+    },
+    {
+      "title": "Moonshadow - Remastered 2021",
+      "artist": "Yusuf / Cat Stevens",
+      "year": "1971",
+      "web_url": "https://open.spotify.com/track/5p3nvmoaAY03qGmBQApn0w",
+      "img_url": "https://i.scdn.co/image/ab67616d0000b2730f284f5845974aa71ebc395d",
+      "image_url": "https://assessment2-music-app-group3-bucket.s3.us-east-1.amazonaws.com/music-images/09455bf4619395bd59687e6ff2ada9db.jpg"
+    },
+    {
+      "title": "Mudfootball (For Moe Lerner)",
+      "artist": "Jack Johnson",
+      "year": "2001",
+      "web_url": "https://open.spotify.com/track/4e0TsKPTGF4Jz1sgG9Kd6z",
+      "img_url": "https://i.scdn.co/image/ab67616d0000b273cb0161f840ee7bb3b9d9cde2",
+      "image_url": "https://assessment2-music-app-group3-bucket.s3.us-east-1.amazonaws.com/music-images/732a513057a6e92df40923ad936756c8.jpg"
+    },
+    {
+      "title": "My Antonia",
+      "artist": "Emmylou Harris",
+      "year": "2000",
+      "web_url": "https://open.spotify.com/track/6yCwfs5qUdG8ySrLl2lgOh",
+      "img_url": "https://i.scdn.co/image/ab67616d0000b273222d57398c11c1bc0cd6c5ee",
+      "image_url": "https://assessment2-music-app-group3-bucket.s3.us-east-1.amazonaws.com/music-images/691cdc80edf20dfaba7e903441c9007a.jpg"
+    },
+    {
+      "title": "New Realization - Demo",
+      "artist": "Sublime",
+      "year": "1991",
+      "web_url": "https://open.spotify.com/track/1iD5bh9EmBSEC7KWJv6rAi",
+      "img_url": "https://i.scdn.co/image/ab67616d0000b273e6f11f4c160143e5efb97651",
+      "image_url": "https://assessment2-music-app-group3-bucket.s3.us-east-1.amazonaws.com/music-images/2c03869896f41d1445bdc7578b3d853e.jpg"
+    },
+    {
+      "title": "No Surprises",
+      "artist": "Radiohead",
+      "year": "1997",
+      "web_url": "https://open.spotify.com/track/10nyNJ6zNy2YVYLrcwLccB",
+      "img_url": "https://i.scdn.co/image/ab67616d0000b273c8b444df094279e70d0ed856",
+      "image_url": "https://assessment2-music-app-group3-bucket.s3.us-east-1.amazonaws.com/music-images/40374db29354d040c44b2168356d7d2f.jpg"
+    },
+    {
+      "title": "Nothing",
+      "artist": "Mason Jennings",
+      "year": "1998",
+      "web_url": "https://open.spotify.com/track/5xmldtJ1mftbsdKSMXlECN",
+      "img_url": "https://i.scdn.co/image/ab67616d0000b273f1f69e4effe42db43fb8d1e2",
+      "image_url": "https://assessment2-music-app-group3-bucket.s3.us-east-1.amazonaws.com/music-images/2f0f661dcc37e56df84f5128014d8f70.jpg"
+    },
+    {
+      "title": "Nothing Else Matters - Remastered 2021",
+      "artist": "Metallica",
+      "year": "2021",
+      "web_url": "https://open.spotify.com/track/6QAsrXPnMSXIbV0yEJHlEX",
+      "img_url": "https://i.scdn.co/image/ab67616d0000b273c1a13209dfe146aef3296e34",
+      "image_url": "https://assessment2-music-app-group3-bucket.s3.us-east-1.amazonaws.com/music-images/e58c23a47b7a97145ffd46c8972c52db.jpg"
+    },
+    {
+      "title": "Only Son of the Ladiesman",
+      "artist": "Father John Misty",
+      "year": "2012",
+      "web_url": "https://open.spotify.com/track/3ySVCcGZeCrrsE4wnhilD3",
+      "img_url": "https://i.scdn.co/image/ab67616d0000b273f81572e9a17c58d81b0f70e9",
+      "image_url": "https://assessment2-music-app-group3-bucket.s3.us-east-1.amazonaws.com/music-images/47c8e853efc833a60bbf88c9e70624cc.jpg"
+    },
+    {
+      "title": "Out on the Weekend",
+      "artist": "Neil Young",
+      "year": "1972",
+      "web_url": "https://open.spotify.com/track/15Z3JEayO4OEcbJQsasWHh",
+      "img_url": "https://i.scdn.co/image/ab67616d0000b2730940e6b24f977f68b5fc35d1",
+      "image_url": "https://assessment2-music-app-group3-bucket.s3.us-east-1.amazonaws.com/music-images/915b7c3f8f01a235826995a9e26198d1.jpg"
+    },
+    {
+      "title": "Party In The U.S.A.",
+      "artist": "Miley Cyrus",
+      "year": "2009",
+      "web_url": "https://open.spotify.com/track/3E7dfMvvCLUddWissuqMwr",
+      "img_url": "https://i.scdn.co/image/ab67616d0000b2734ea6653890e297d53e93e3e0",
+      "image_url": "https://assessment2-music-app-group3-bucket.s3.us-east-1.amazonaws.com/music-images/e1273e379ad4af59007e0beab5d01113.jpg"
+    },
+    {
+      "title": "Patience",
+      "artist": "Guns N' Roses",
+      "year": "1987",
+      "web_url": "https://open.spotify.com/track/1OEoNpiyqBghuEUaT6Je6U",
+      "img_url": "https://i.scdn.co/image/ab67616d0000b273275b7ffe49eb84ab13a71980",
+      "image_url": "https://assessment2-music-app-group3-bucket.s3.us-east-1.amazonaws.com/music-images/ba46a3a8113b913b980beb7fb24c90ca.jpg"
+    },
+    {
+      "title": "Redemption Song",
+      "artist": "Bob Marley & The Wailers",
+      "year": "1980",
+      "web_url": "https://open.spotify.com/track/26PwuMotZqcczKLHi4Htz3",
+      "img_url": "https://i.scdn.co/image/ab67616d0000b2731c40418d1c37d727e8e91b04",
+      "image_url": "https://assessment2-music-app-group3-bucket.s3.us-east-1.amazonaws.com/music-images/552ce9063dbc7209f89b3cc545636977.jpg"
+    },
+    {
+      "title": "Rivers Of Babylon",
+      "artist": "Sublime",
+      "year": "1992",
+      "web_url": "https://open.spotify.com/track/59FK9uQYzunUJOLky9K4yK",
+      "img_url": "https://i.scdn.co/image/ab67616d0000b273d77299e3d29f44495cd7fbcb",
+      "image_url": "https://assessment2-music-app-group3-bucket.s3.us-east-1.amazonaws.com/music-images/b1f9d3e3b6061b390f1f8de5a50b1738.jpg"
+    },
+    {
+      "title": "Rocket Man (I Think It's Going To Be A Long, Long Time)",
+      "artist": "Elton John",
+      "year": "1972",
+      "web_url": "https://open.spotify.com/track/3gdewACMIVMEWVbyb8O9sY",
+      "img_url": "https://i.scdn.co/image/ab67616d0000b2733009007708ab5134936a58b3",
+      "image_url": "https://assessment2-music-app-group3-bucket.s3.us-east-1.amazonaws.com/music-images/a71355aa8f6e129758f972c49c8d26f7.jpg"
+    },
+    {
+      "title": "Rodeo Clowns",
+      "artist": "Jack Johnson",
+      "year": "2003",
+      "web_url": "https://open.spotify.com/track/422qOiUJZCd7SaEyoPAEnQ",
+      "img_url": "https://i.scdn.co/image/ab67616d0000b2734a25251f8c645064ebdec45b",
+      "image_url": "https://assessment2-music-app-group3-bucket.s3.us-east-1.amazonaws.com/music-images/ca0defd51e7dadfbfe9745b684549f2e.jpg"
+    },
+    {
+      "title": "Send My Fond Regards to Lonelyville",
+      "artist": "Elvis Perkins In Dearland",
+      "year": "2009",
+      "web_url": "https://open.spotify.com/track/7lx43CXyK0cQ4GcGhA9iev",
+      "img_url": "https://i.scdn.co/image/ab67616d0000b273f592494bc8d2df4ad464f16b",
+      "image_url": "https://assessment2-music-app-group3-bucket.s3.us-east-1.amazonaws.com/music-images/11c17a1cc1911fc84352b03bea1a795c.jpg"
+    },
+    {
+      "title": "Sentimental Heart",
+      "artist": "She & Him",
+      "year": "2008",
+      "web_url": "https://open.spotify.com/track/6036VIGLxfGL1CTYmrYDrp",
+      "img_url": "https://i.scdn.co/image/ab67616d0000b273097e70ea81de84651ff055e5",
+      "image_url": "https://assessment2-music-app-group3-bucket.s3.us-east-1.amazonaws.com/music-images/890592e79ad86e28a5a66284664e24d7.jpg"
+    },
+    {
+      "title": "Shelter from the Storm",
+      "artist": "Bob Dylan",
+      "year": "1975",
+      "web_url": "https://open.spotify.com/track/3y4Uza6K58JXQ7RYya8ZI5",
+      "img_url": "https://i.scdn.co/image/ab67616d0000b27372ca15b8637acbc7d15ff5ba",
+      "image_url": "https://assessment2-music-app-group3-bucket.s3.us-east-1.amazonaws.com/music-images/062553e3098e4963fbef0e086542c5e4.jpg"
+    },
+    {
+      "title": "Some Nights",
+      "artist": "fun.",
+      "year": "2012",
+      "web_url": "https://open.spotify.com/track/67WTwafOMgegV6ABnBQxcE",
+      "img_url": "https://i.scdn.co/image/ab67616d0000b273a036e1724bc7f2bab15cfda8",
+      "image_url": "https://assessment2-music-app-group3-bucket.s3.us-east-1.amazonaws.com/music-images/6b377572f89ab265ac5b2e2a27ad6284.jpg"
+    },
+    {
+      "title": "Somewhere Only We Know",
+      "artist": "Keane",
+      "year": "2004",
+      "web_url": "https://open.spotify.com/track/1SKPmfSYaPsETbRHaiA18G",
+      "img_url": "https://i.scdn.co/image/ab67616d0000b2737d6cd95a046a3c0dacbc7d33",
+      "image_url": "https://assessment2-music-app-group3-bucket.s3.us-east-1.amazonaws.com/music-images/41293a4ce110b0089d15146dba1a7d8e.jpg"
+    },
+    {
+      "title": "Space Oddity - 2015 Remaster",
+      "artist": "David Bowie",
+      "year": "1969",
+      "web_url": "https://open.spotify.com/track/72Z17vmmeQKAg8bptWvpVG",
+      "img_url": "https://i.scdn.co/image/ab67616d0000b2733395f3e809dfbc2b1101d464",
+      "image_url": "https://assessment2-music-app-group3-bucket.s3.us-east-1.amazonaws.com/music-images/6e2b3db33f109ab6d92aa3276c7aec5d.jpg"
+    },
+    {
+      "title": "Stay Or Leave",
+      "artist": "Dave Matthews",
+      "year": "2003",
+      "web_url": "https://open.spotify.com/track/1y7baLUzUGyqSGc7p7Ww9f",
+      "img_url": "https://i.scdn.co/image/ab67616d0000b2734b5f540d4cfd396310fa6981",
+      "image_url": "https://assessment2-music-app-group3-bucket.s3.us-east-1.amazonaws.com/music-images/47782e9ca0dbd96c01b0b38b4d30658f.jpg"
+    },
+    {
+      "title": "Stubborn Love",
+      "artist": "The Lumineers",
+      "year": "2012",
+      "web_url": "https://open.spotify.com/track/4wG82w1L31yQhgGiWt6gIb",
+      "img_url": "https://i.scdn.co/image/ab67616d0000b273f350c13195ce048876b5fea4",
+      "image_url": "https://assessment2-music-app-group3-bucket.s3.us-east-1.amazonaws.com/music-images/4edca0521a7ce8f8d501bd4b564fb29c.jpg"
+    },
+    {
+      "title": "Stuck In The Middle With You",
+      "artist": "Stealers Wheel",
+      "year": "1972",
+      "web_url": "https://open.spotify.com/track/3Vby4nGmtbDo7HDJamOWkT",
+      "img_url": "https://i.scdn.co/image/ab67616d0000b273a5ce236c22035a02cf87d4de",
+      "image_url": "https://assessment2-music-app-group3-bucket.s3.us-east-1.amazonaws.com/music-images/1d889f13e47010249186797466394ff1.jpg"
+    },
+    {
+      "title": "Submarines",
+      "artist": "The Lumineers",
+      "year": "2012",
+      "web_url": "https://open.spotify.com/track/1M8nuMndvgtoICrIcDl7Vz",
+      "img_url": "https://i.scdn.co/image/ab67616d0000b273f350c13195ce048876b5fea4",
+      "image_url": "https://assessment2-music-app-group3-bucket.s3.us-east-1.amazonaws.com/music-images/4edca0521a7ce8f8d501bd4b564fb29c.jpg"
+    },
+    {
+      "title": "Sugar Mountain - 2017 Remaster",
+      "artist": "Neil Young",
+      "year": "1977",
+      "web_url": "https://open.spotify.com/track/1EVgCMjGny4sUxsZ7ghPmh",
+      "img_url": "https://i.scdn.co/image/ab67616d0000b273a297b232ab99a64e1ab9b302",
+      "image_url": "https://assessment2-music-app-group3-bucket.s3.us-east-1.amazonaws.com/music-images/9c73f48b39df0b5faa3ade293b583cb5.jpg"
+    },
+    {
+      "title": "Summer Of '69",
+      "artist": "Bryan Adams",
+      "year": "1984",
+      "web_url": "https://open.spotify.com/track/0GONea6G2XdnHWjNZd6zt3",
+      "img_url": "https://i.scdn.co/image/ab67616d0000b273cf1fee2a55e98e22bf358512",
+      "image_url": "https://assessment2-music-app-group3-bucket.s3.us-east-1.amazonaws.com/music-images/ec6654c3c7499605fbdb843349912775.jpg"
+    },
+    {
+      "title": "Sweet Home Alabama",
+      "artist": "Lynyrd Skynyrd",
+      "year": "1974",
+      "web_url": "https://open.spotify.com/track/7e89621JPkKaeDSTQ3avtg",
+      "img_url": "https://i.scdn.co/image/ab67616d0000b27317e1907923e91181f38290ac",
+      "image_url": "https://assessment2-music-app-group3-bucket.s3.us-east-1.amazonaws.com/music-images/86adec2dcebc55fb8307ba230cb46ab6.jpg"
+    },
+    {
+      "title": "Tangled up in Blue",
+      "artist": "Bob Dylan",
+      "year": "1975",
+      "web_url": "https://open.spotify.com/track/6Vcwr9tb3ZLO63F8DL8cqu",
+      "img_url": "https://i.scdn.co/image/ab67616d0000b27372ca15b8637acbc7d15ff5ba",
+      "image_url": "https://assessment2-music-app-group3-bucket.s3.us-east-1.amazonaws.com/music-images/062553e3098e4963fbef0e086542c5e4.jpg"
+    },
+    {
+      "title": "The Drugs Don't Work - Live",
+      "artist": "Ben Harper And The Innocent Criminals",
+      "year": "2001",
+      "web_url": "https://open.spotify.com/track/1uDfA8q8avcbSzjNyB0cq7",
+      "img_url": "https://i.scdn.co/image/ab67616d0000b2730d20299258140e448bd3724f",
+      "image_url": "https://assessment2-music-app-group3-bucket.s3.us-east-1.amazonaws.com/music-images/781ac9179ff1530cc1bd776f4bae6643.jpg"
+    },
+    {
+      "title": "The General",
+      "artist": "DISPATCH",
+      "year": "1997",
+      "web_url": "https://open.spotify.com/track/6n6EXIwLtNwe4u4CFzENYm",
+      "img_url": "https://i.scdn.co/image/ab67616d0000b2732163f43d5a76548a6e65ec66",
+      "image_url": "https://assessment2-music-app-group3-bucket.s3.us-east-1.amazonaws.com/music-images/51a781829c81a7b96339b688f6b36cb7.jpg"
+    },
+    {
+      "title": "The Lion's Roar",
+      "artist": "First Aid Kit",
+      "year": "2012",
+      "web_url": "https://open.spotify.com/track/2oqPb3LtgyvDfdQa0zWlwh",
+      "img_url": "https://i.scdn.co/image/ab67616d0000b273ea1dd7c174f9239cf5733e58",
+      "image_url": "https://assessment2-music-app-group3-bucket.s3.us-east-1.amazonaws.com/music-images/3302cf2c0efa04b1db7f80033a6ebea9.jpg"
+    },
+    {
+      "title": "The Man in Me",
+      "artist": "Bob Dylan",
+      "year": "1970",
+      "web_url": "https://open.spotify.com/track/7xRemq7GLu0Tbqe9OckG87",
+      "img_url": "https://i.scdn.co/image/ab67616d0000b2733dbc767bf5a06821a554a812",
+      "image_url": "https://assessment2-music-app-group3-bucket.s3.us-east-1.amazonaws.com/music-images/706d3799c25e58a88e01779763d77331.jpg"
+    },
+    {
+      "title": "The Mother We Share",
+      "artist": "CHVRCHES",
+      "year": "2013",
+      "web_url": "https://open.spotify.com/track/20Dw7Jar5hUbwX5FwHdQoG",
+      "img_url": "https://i.scdn.co/image/ab67616d0000b273c962604308a3d80b33c23c7b",
+      "image_url": "https://assessment2-music-app-group3-bucket.s3.us-east-1.amazonaws.com/music-images/1ee524a95d5901ba87e9ff96da01c269.jpg"
+    },
+    {
+      "title": "The Needle and the Damage Done",
+      "artist": "Neil Young",
+      "year": "1972",
+      "web_url": "https://open.spotify.com/track/7gaHuCPO76zceg54cJNalE",
+      "img_url": "https://i.scdn.co/image/ab67616d0000b2730940e6b24f977f68b5fc35d1",
+      "image_url": "https://assessment2-music-app-group3-bucket.s3.us-east-1.amazonaws.com/music-images/915b7c3f8f01a235826995a9e26198d1.jpg"
+    },
+    {
+      "title": "The Weather Is Here, Wish You Were Beautiful",
+      "artist": "Jimmy Buffett",
+      "year": "1981",
+      "web_url": "https://open.spotify.com/track/1TtyVbmspHF7rgHAvBoALk",
+      "img_url": "https://i.scdn.co/image/ab67616d0000b27372f10c00277809f074f1584a",
+      "image_url": "https://assessment2-music-app-group3-bucket.s3.us-east-1.amazonaws.com/music-images/e6242e7aabff71ea88d8a33a7ad1227b.jpg"
+    },
+    {
+      "title": "Carry That Weight - Remastered 2009",
+      "artist": "The Beatles",
+      "year": "1969",
+      "web_url": "https://open.spotify.com/track/5eZrW59C3UgBhkqNlowEID",
+      "img_url": "https://i.scdn.co/image/ab67616d0000b273dc30583ba717007b00cceb25",
+      "image_url": "https://assessment2-music-app-group3-bucket.s3.us-east-1.amazonaws.com/music-images/5a17e2ca98a0dcce912e3f49297fc062.jpg"
+    },
+    {
+      "title": "Tin Cup Chalice",
+      "artist": "Jimmy Buffett",
+      "year": "1974",
+      "web_url": "https://open.spotify.com/track/6i5stu3H0nHekjp8bOhoeE",
+      "img_url": "https://i.scdn.co/image/ab67616d0000b27333733085a70a5fa56623f8ea",
+      "image_url": "https://assessment2-music-app-group3-bucket.s3.us-east-1.amazonaws.com/music-images/4b6ac5493bf958091f34f220f8727e9b.jpg"
+    },
+    {
+      "title": "Tiny Dancer",
+      "artist": "Elton John",
+      "year": "1971",
+      "web_url": "https://open.spotify.com/track/2TVxnKdb3tqe1nhQWwwZCO",
+      "img_url": "https://i.scdn.co/image/ab67616d0000b273d03ab2da904d8251a87bbc31",
+      "image_url": "https://assessment2-music-app-group3-bucket.s3.us-east-1.amazonaws.com/music-images/3fad1fb805396e9a2dc1a42e233afeb1.jpg"
+    },
+    {
+      "title": "Trying To Reason With Hurricane Season",
+      "artist": "Jimmy Buffett",
+      "year": "1974",
+      "web_url": "https://open.spotify.com/track/2aT4FycQXXc4SkD2Sdm9YJ",
+      "img_url": "https://i.scdn.co/image/ab67616d0000b27333733085a70a5fa56623f8ea",
+      "image_url": "https://assessment2-music-app-group3-bucket.s3.us-east-1.amazonaws.com/music-images/4b6ac5493bf958091f34f220f8727e9b.jpg"
+    },
+    {
+      "title": "Under the Milky Way",
+      "artist": "The Church",
+      "year": "1988",
+      "web_url": "https://open.spotify.com/track/1RCtHLyq1xIbgGMrYRrKJ2",
+      "img_url": "https://i.scdn.co/image/ab67616d0000b2734b75b4c598bbf7c852d3b3fe",
+      "image_url": "https://assessment2-music-app-group3-bucket.s3.us-east-1.amazonaws.com/music-images/0f3b398f0c10bc860343997c70b82dd6.jpg"
+    },
+    {
+      "title": "Viva La Vida",
+      "artist": "Coldplay",
+      "year": "2008",
+      "web_url": "https://open.spotify.com/track/1mea3bSkSGXuIRvnydlB5b",
+      "img_url": "https://i.scdn.co/image/ab67616d0000b273e21cc1db05580b6f2d2a3b6e",
+      "image_url": "https://assessment2-music-app-group3-bucket.s3.us-east-1.amazonaws.com/music-images/a2eaaa0cb555270b5b6f06415ef1bd9e.jpg"
+    },
+    {
+      "title": "Watching The Wheels - Remastered 2010",
+      "artist": "John Lennon",
+      "year": "1980",
+      "web_url": "https://open.spotify.com/track/4fKhRRYn7F5shZItjJkPJU",
+      "img_url": "https://i.scdn.co/image/ab67616d0000b2736eac0f2b77d85a59f0cf9b3e",
+      "image_url": "https://assessment2-music-app-group3-bucket.s3.us-east-1.amazonaws.com/music-images/54b7ce887b6299afa27062bd879b0b30.jpg"
+    },
+    {
+      "title": "Way Over Yonder In The Minor Key",
+      "artist": "Billy Bragg",
+      "year": "1998",
+      "web_url": "https://open.spotify.com/track/1u83jE4eGB5teYPbj0HTT0",
+      "img_url": "https://i.scdn.co/image/ab67616d0000b273e010f4fe6ca761ac3f5f1097",
+      "image_url": "https://assessment2-music-app-group3-bucket.s3.us-east-1.amazonaws.com/music-images/9da431476df3ccdfcd48944f0e895564.jpg"
+    },
+    {
+      "title": "We Are Never Ever Getting Back Together (Taylor's Version)",
+      "artist": "Taylor Swift",
+      "year": "2021",
+      "web_url": "https://open.spotify.com/track/5YqltLsjdqFtvqE7Nrysvs",
+      "img_url": "https://i.scdn.co/image/ab67616d0000b273318443aab3531a0558e79a4d",
+      "image_url": "https://assessment2-music-app-group3-bucket.s3.us-east-1.amazonaws.com/music-images/e8afc8ce1fc8cc6b6291c6731d0b1540.jpg"
+    },
+    {
+      "title": "We're Going to Be Friends",
+      "artist": "The White Stripes",
+      "year": "2001",
+      "web_url": "https://open.spotify.com/track/13lZDbwonGhOflQLQIfdtZ",
+      "img_url": "https://i.scdn.co/image/ab67616d0000b273c6084929566743530de8c721",
+      "image_url": "https://assessment2-music-app-group3-bucket.s3.us-east-1.amazonaws.com/music-images/12a22ed36983dbf4ceedeb29b82dde75.jpg"
+    },
+    {
+      "title": "What I Got",
+      "artist": "Sublime",
+      "year": "1996",
+      "web_url": "https://open.spotify.com/track/3B4q6KbHbGV51HO3GznBFF",
+      "img_url": "https://i.scdn.co/image/ab67616d0000b2738fc4b0dcfb9509553f195c85",
+      "image_url": "https://assessment2-music-app-group3-bucket.s3.us-east-1.amazonaws.com/music-images/1b442d8eb7a128e130b8574560ba89af.jpg"
+    },
+    {
+      "title": "Wind and Walls",
+      "artist": "The Tallest Man On Earth",
+      "year": "2012",
+      "web_url": "https://open.spotify.com/track/3wDCvt4mbwe4uDBijouMWo",
+      "img_url": "https://i.scdn.co/image/ab67616d0000b273e21de78f69d3c385bdeaa76c",
+      "image_url": "https://assessment2-music-app-group3-bucket.s3.us-east-1.amazonaws.com/music-images/764b4f2c9f030aa080dabca9d4497ed2.jpg"
+    },
+    {
+      "title": "With A Little Help From My Friends - Remastered 2009",
+      "artist": "The Beatles",
+      "year": "1967",
+      "web_url": "https://open.spotify.com/track/2RnPATK99oGOZygnD2GTO6",
+      "img_url": "https://i.scdn.co/image/ab67616d0000b27334ef8f7d06cf2fc2146f420a",
+      "image_url": "https://assessment2-music-app-group3-bucket.s3.us-east-1.amazonaws.com/music-images/1fb4606fea3e0b062d5203aae2d79737.jpg"
+    },
+    {
+      "title": "Ya Hey",
+      "artist": "Vampire Weekend",
+      "year": "2013",
+      "web_url": "https://open.spotify.com/track/1AmsqMwCRHj7BCtsZr7ZeY",
+      "img_url": "https://i.scdn.co/image/ab67616d0000b273654afcab578b93f29ca55a29",
+      "image_url": "https://assessment2-music-app-group3-bucket.s3.us-east-1.amazonaws.com/music-images/a35eca48abcbffc4dcf1878e0d4ca524.jpg"
+    },
+    {
+      "title": "You Belong With Me (Taylor’s Version)",
+      "artist": "Taylor Swift",
+      "year": "2021",
+      "web_url": "https://open.spotify.com/track/1qrpoAMXodY6895hGKoUpA",
+      "img_url": "https://i.scdn.co/image/ab67616d0000b273a48964b5d9a3d6968ae3e0de",
+      "image_url": "https://assessment2-music-app-group3-bucket.s3.us-east-1.amazonaws.com/music-images/af092902ef7f4e8c8e354aa67678f3f6.jpg"
+    },
+    {
+      "title": "You Love Me",
+      "artist": "DeVotchKa",
+      "year": "2004",
+      "web_url": "https://open.spotify.com/track/5NITujhRannsh2lEsmMC7x",
+      "img_url": "https://i.scdn.co/image/ab67616d0000b273f02bb1f9bb12a893a882820c",
+      "image_url": "https://assessment2-music-app-group3-bucket.s3.us-east-1.amazonaws.com/music-images/1fe4bfe3dadca5a00b1a91f57e3918fb.jpg"
+    }
+  ]
+}
