@@ -5,7 +5,7 @@ from dotenv import load_dotenv
 
 load_dotenv()
 
-AWS_REGION = os.getenv("AWS_REGION", "ap-southeast-2")
+AWS_REGION = os.getenv("AWS_REGION", "us-east-1")
 
 LOGIN_TABLE_NAME = os.getenv("LOGIN_TABLE_NAME", "login")
 MUSIC_TABLE_NAME = os.getenv("MUSIC_TABLE_NAME", "music")
