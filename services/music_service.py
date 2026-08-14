@@ -1,3 +1,20 @@
+import os
+import boto3
+
+from boto3.dynamodb.conditions import Key, Attr
+
+from dotenv import load_dotenv
+
+load_dotenv()
+
+
+dynamodb = boto3.resource("dynamodb", region_name=os.getenv("AWS_REGION", "us-east-1"), aws_access_key_id=os.getenv("AWS_ACCESS_KEY_ID"), aws_secret_access_key=os.getenv("AWS_SECRET_ACCESS_KEY"))
+music = dynamodb.Table(os.getenv("MUSIC_TABLE_NAME", "music"))
+login = dynamodb.Table(os.getenv("LOGIN_TABLE_NAME", "login"))
+Subscriptions = dynamodb.Table(os.getenv("SUBSCRIPTION_TABLE_NAME", "subscriptions"))
+
+
+
 TEMP_USERS = {
     "test@student.rmit.edu.au": {
         "password": "123456",
@@ -33,17 +50,18 @@ TEMP_SUBSCRIPTIONS = {}
 
 
 def get_user(email):
-    return TEMP_USERS.get(email)
+    return login.get_item(Key={"email": email})
 
 
 def create_user(email, user_name, password):
-    if email in TEMP_USERS:
+    if get_user(email):
         return False
 
-    TEMP_USERS[email] = {
+    login.put_item(Item={
+        "email": email,
         "user_name": user_name,
-        "password": password,
-    }
+        "password": password
+    })
 
     return True
 
@@ -55,7 +73,7 @@ def search_music(title="", artist="", year=""):
 
     results = []
 
-    for song in TEMP_MUSIC:
+    for song in music.scan()["Items"]:
         if title and title not in song["title"].lower():
             continue
 
@@ -71,16 +89,11 @@ def search_music(title="", artist="", year=""):
 
 
 def get_music_by_id(music_id):
-    for song in TEMP_MUSIC:
-        if song["music_id"] == music_id:
-            return song
-
-    return None
+    return music.get_item(Key={"music_id": music_id})
 
 
 def get_subscriptions(email):
-    return TEMP_SUBSCRIPTIONS.get(email, [])
-
+    return Subscriptions.get_item(Key={"email": email})
 
 def add_subscription(email, music_id):
     song = get_music_by_id(music_id)
@@ -88,7 +101,7 @@ def add_subscription(email, music_id):
     if not song:
         return False
 
-    subscriptions = TEMP_SUBSCRIPTIONS.setdefault(email, [])
+    subscriptions = Subscriptions.get_item(Key={"email": email})
 
     already_exists = any(
         item["music_id"] == music_id
@@ -97,15 +110,25 @@ def add_subscription(email, music_id):
 
     if not already_exists:
         subscriptions.append(song)
+    
+    Subscriptions.put_item(Item={
+        "email": email,
+        "subscriptions": subscriptions
+    })
 
     return True
 
 
 def remove_subscription(email, music_id):
-    subscriptions = TEMP_SUBSCRIPTIONS.get(email, [])
+    subscriptions = Subscriptions.get_item(Key={"email": email})
 
-    TEMP_SUBSCRIPTIONS[email] = [
+    subscriptions = [
         song
         for song in subscriptions
         if song["music_id"] != music_id
     ]
+
+    Subscriptions.put_item(Item={
+        "email": email,
+        "subscriptions": subscriptions
+    })
