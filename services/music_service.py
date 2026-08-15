@@ -1,99 +1,188 @@
-import os
 import boto3
+from boto3.dynamodb.conditions import Key
+from botocore.exceptions import ClientError
+from urllib.parse import urlparse
 
-from boto3.dynamodb.conditions import Key, Attr
-
-from dotenv import load_dotenv
-
-load_dotenv()
-
-
-dynamodb = boto3.resource("dynamodb", region_name=os.getenv("AWS_REGION", "us-east-1"), aws_access_key_id=os.getenv("AWS_ACCESS_KEY_ID"), aws_secret_access_key=os.getenv("AWS_SECRET_ACCESS_KEY"))
-music = dynamodb.Table(os.getenv("MUSIC_TABLE_NAME", "music"))
-login = dynamodb.Table(os.getenv("LOGIN_TABLE_NAME", "login"))
-Subscriptions = dynamodb.Table(os.getenv("SUBSCRIPTION_TABLE_NAME", "subscriptions"))
-
+from config import (
+    AWS_REGION,
+    LOGIN_TABLE_NAME,
+    MUSIC_TABLE_NAME,
+    SUBSCRIPTION_TABLE_NAME,
+    S3_BUCKET_NAME,
+)
 
 
-TEMP_USERS = {
-    "test@student.rmit.edu.au": {
-        "password": "123456",
-        "user_name": "Test User",
-    }
-}
+dynamodb = boto3.resource(
+    "dynamodb",
+    region_name=AWS_REGION,
+)
 
-TEMP_MUSIC = [
-    {
-        "music_id": "1904#The Tallest Man On Earth",
-        "title": "1904",
-        "artist": "The Tallest Man On Earth",
-        "year": "2012",
-        "image_url": "https://via.placeholder.com/180",
-    },
-    {
-        "music_id": "Creep#Radiohead",
-        "title": "Creep",
-        "artist": "Radiohead",
-        "year": "1993",
-        "image_url": "https://via.placeholder.com/180",
-    },
-    {
-        "music_id": "Love Story#Taylor Swift",
-        "title": "Love Story",
-        "artist": "Taylor Swift",
-        "year": "2021",
-        "image_url": "https://via.placeholder.com/180",
-    },
-]
+s3 = boto3.client(
+    "s3",
+    region_name=AWS_REGION,
+)
 
-TEMP_SUBSCRIPTIONS = {}
+login_table = dynamodb.Table(LOGIN_TABLE_NAME)
+music_table = dynamodb.Table(MUSIC_TABLE_NAME)
+subscription_table = dynamodb.Table(SUBSCRIPTION_TABLE_NAME)
 
+
+def make_music_id(title, artist):
+    return f"{title}|||{artist}"
+
+
+def prepare_song_for_display(song):
+    song = dict(song)
+
+    song["music_id"] = make_music_id(
+        song["title"],
+        song["artist"],
+    )
+
+    image_url = song.get("image_url", "")
+
+    # S3 bucket is private, so create a temporary readable URL
+    if (
+        S3_BUCKET_NAME
+        and image_url
+        and "amazonaws.com" in image_url
+    ):
+        try:
+            key = urlparse(image_url).path.lstrip("/")
+
+            song["image_url"] = s3.generate_presigned_url(
+                "get_object",
+                Params={
+                    "Bucket": S3_BUCKET_NAME,
+                    "Key": key,
+                },
+                ExpiresIn=3600,
+            )
+        except Exception as error:
+            print("Could not generate S3 image URL:", error)
+
+    return song
+
+
+# -------------------------
+# USER
+# -------------------------
 
 def get_user(email):
-    return login.get_item(Key={"email": email})
+    response = login_table.get_item(
+        Key={
+            "email": email,
+        }
+    )
+
+    return response.get("Item")
 
 
 def create_user(email, user_name, password):
-    if get_user(email):
-        return False
+    try:
+        login_table.put_item(
+            Item={
+                "email": email,
+                "user_name": user_name,
+                "password": password,
+            },
+            ConditionExpression="attribute_not_exists(email)",
+        )
 
-    login.put_item(Item={
-        "email": email,
-        "user_name": user_name,
-        "password": password
-    })
+        return True
 
-    return True
+    except ClientError as error:
+        if (
+            error.response["Error"]["Code"]
+            == "ConditionalCheckFailedException"
+        ):
+            return False
+
+        raise
+
+
+# -------------------------
+# MUSIC
+# -------------------------
+
+def get_all_music():
+    songs = []
+
+    response = music_table.scan()
+    songs.extend(response.get("Items", []))
+
+    while "LastEvaluatedKey" in response:
+        response = music_table.scan(
+            ExclusiveStartKey=response["LastEvaluatedKey"]
+        )
+
+        songs.extend(response.get("Items", []))
+
+    return songs
 
 
 def search_music(title="", artist="", year=""):
-    title = title.lower().strip()
-    artist = artist.lower().strip()
-    year = year.lower().strip()
+    title = title.strip().lower()
+    artist = artist.strip().lower()
+    year = year.strip().lower()
 
     results = []
 
-    for song in music.scan()["Items"]:
-        if title and title not in song["title"].lower():
+    for song in get_all_music():
+        song_title = str(song.get("title", "")).lower()
+        song_artist = str(song.get("artist", "")).lower()
+        song_year = str(song.get("year", "")).lower()
+
+        # Multiple conditions work as AND
+        if title and title not in song_title:
             continue
 
-        if artist and artist not in song["artist"].lower():
+        if artist and artist not in song_artist:
             continue
 
-        if year and year not in song["year"].lower():
+        if year and year not in song_year:
             continue
 
-        results.append(song)
+        results.append(
+            prepare_song_for_display(song)
+        )
 
     return results
 
 
 def get_music_by_id(music_id):
-    return music.get_item(Key={"music_id": music_id})
+    try:
+        title, artist = music_id.split("|||", 1)
 
+    except ValueError:
+        return None
+
+    response = music_table.get_item(
+        Key={
+            "title": title,
+            "artist": artist,
+        }
+    )
+
+    return response.get("Item")
+
+
+# -------------------------
+# SUBSCRIPTIONS
+# -------------------------
 
 def get_subscriptions(email):
-    return Subscriptions.get_item(Key={"email": email})
+    response = subscription_table.query(
+        KeyConditionExpression=Key("user_email").eq(email)
+    )
+
+    items = response.get("Items", [])
+
+    return [
+        prepare_song_for_display(song)
+        for song in items
+    ]
+
 
 def add_subscription(email, music_id):
     song = get_music_by_id(music_id)
@@ -101,34 +190,26 @@ def add_subscription(email, music_id):
     if not song:
         return False
 
-    subscriptions = Subscriptions.get_item(Key={"email": email})
-
-    already_exists = any(
-        item["music_id"] == music_id
-        for item in subscriptions
+    subscription_table.put_item(
+        Item={
+            "user_email": email,
+            "music_id": music_id,
+            "title": song["title"],
+            "artist": song["artist"],
+            "year": song["year"],
+            "image_url": song.get("image_url", ""),
+        }
     )
-
-    if not already_exists:
-        subscriptions.append(song)
-    
-    Subscriptions.put_item(Item={
-        "email": email,
-        "subscriptions": subscriptions
-    })
 
     return True
 
 
 def remove_subscription(email, music_id):
-    subscriptions = Subscriptions.get_item(Key={"email": email})
+    subscription_table.delete_item(
+        Key={
+            "user_email": email,
+            "music_id": music_id,
+        }
+    )
 
-    subscriptions = [
-        song
-        for song in subscriptions
-        if song["music_id"] != music_id
-    ]
-
-    Subscriptions.put_item(Item={
-        "email": email,
-        "subscriptions": subscriptions
-    })
+    return True

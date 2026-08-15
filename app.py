@@ -9,10 +9,10 @@ from services.music_service import (
     remove_subscription,
 )
 
+from config import SECRET_KEY
 
 app = Flask(__name__)
-app.secret_key = "development-secret-key"
-
+app.secret_key = SECRET_KEY
 
 @app.route("/")
 def index():
